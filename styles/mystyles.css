@@ -1,0 +1,37 @@
+/* Asked the professor if I could do classes and ID's to keep the page carouselExampleIndicators
+Last edited on 08/01 by Abigail higham
+*/
+
+#videoHeader {
+	color: gray;
+}
+
+.subheading {
+	font-family: myFirstFont;
+}
+
+#interests {
+	outline-style: solid;
+	outline-color: gray;
+}
+
+#github
+{
+	color: teal;
+}
+
+.writingHeaderLines {
+	color: teal;
+}
+
+#myName {
+	border: 1px solid teal;
+	border: 1px solid teal;
+	text-decoration: underline;
+	-webkit-text-decoration-color: teal; /* Safari */
+}
+
+#indexSubHeader {
+	text-decoration-color: tan;
+	color: tan;
+}

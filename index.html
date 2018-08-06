@@ -17,6 +17,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 	<!-- Custom styles for this template -->
 	<link href="styles/clean-blog.min.css" rel="stylesheet">
+	<link href="styles/mystyles.css" rel="stylesheet">
 	<!-- Custom Favicon added for this website -->
 	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -57,14 +58,14 @@
 		</div>
 	</nav>
 	<!-- Page Header -->
-	<header class="masthead" style="background-image: url('images/background.png')">
+	<header class="masthead" style="background-image: url('images/background.png')" alt="HelloBackgroundImage">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-md-10 mx-auto">
 					<div class="site-heading">
 						<h1>Hello!</h1>
-						<span class="subheading">Welcome to my online portoflio</span>
+						<span id="indexSubHeader" class="subheading">Welcome to my online portoflio</span>
 					</div>
 				</div>
 			</div>
@@ -87,21 +88,21 @@
 						<a href="#">Abigail Higham</a> on August 2, 2018
 					</p>
 				</div>
-				<hr>
+				<hr class="writingHeaderLines">
 				<div class="post-preview">
 					<a href="files/waterRightsLaw.pdf" download>
 						<h2 class="post-title">
 								Water Rights & Disputes
 							</h2>
 						<h3 class="post-subtitle">
-							What moral obligations do riparian states have to other states that share the same water source?
-						</h3>
+								What moral obligations do riparian states have to other states that share the same water source?
+							</h3>
 					</a>
 					<p class="post-meta">Posted by
 						<a href="#">Abigail Higham</a> on August 2, 2018
 					</p>
 				</div>
-				<hr>
+				<hr class="writingHeaderLines">
 				<div class="post-preview">
 					<a href="files/analysis.pdf" download>
 						<h2 class="post-title">
@@ -115,7 +116,7 @@
 						<a href="#">Abigail Higham</a> on August 2, 2018
 					</p>
 				</div>
-				<hr>
+				<hr class="writingHeaderLines">
 			</div>
 		</div>
 	</div>
@@ -143,8 +144,8 @@
 								</a>
 						</li>
 					</ul>
-					<p class="copyright text-muted">Wanna learn more? Visit my Linkdin or GitHub!</p>
-					<p class="copyright text-muted">Copyright &copy; Abigail Higham 2018</p>
+					<p class="copyright text-muted">Wanna learn more? Visit my Linkdin or <b id="github">GitHub</b>!</p>
+					<p class="copyright text-muted">Copyright &copy; <b id="myName">Abigail Higham</b> 2018</p>
 				</div>
 			</div>
 		</div>
